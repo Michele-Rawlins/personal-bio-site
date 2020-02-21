@@ -3,7 +3,11 @@ body {
     background-image: url("https://www.transparenttextures.com/patterns/stressed-linen.png");
      
 }
+body.tech{
+    background-color: white;
 
+
+}
 img.large {
 
     background-position: center top;
