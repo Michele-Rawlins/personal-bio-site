@@ -9,11 +9,17 @@ body.tech{
 
 }
 img.large {
-
+    
     background-position: center top;
 
 }
 
+
+dl .d-flex.row-wrap {
+size: 40em;
+
+
+}
 img.miniIcons {
     text-align: center;
     width: 2em;
