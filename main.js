@@ -18,6 +18,24 @@ const printToDom = (divId,textToPrint) => {
   }
 
 
+const createBio = () => {
+    let domString="";
+    domString += '<div>';
+    domString += '<img class = "myPhoto" src = "./screenshots/IMG_5486.JPG" alt="black and white selfie"></img>';
+    domString += '<p>Hello!!!  My name is Michele Rawlins.  Welcome to my page.</p>';
+    domString += '<p> I have worked in manufacturing and the food industry for the last 32 years.</p>';
+
+
+printToDom('bio-photo',domString)
+
+} 
+
+
+createBio();
+
+
+
+
 
 
 const createProjectCards = () => {

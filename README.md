@@ -4,7 +4,7 @@ This is a biography about me.  My work history, the technologies I have learned 
 
 
 ## Screen shots
-![Main Screen](./screenshots/bioss.png)
+![Main Screen](./screenshots/bioPage.png)
 
 
 ## Instructions how to run
