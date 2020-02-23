@@ -5,15 +5,26 @@ body {
 }
 body.tech{
     background-color: white;
-
-
-}
-img.large {
-    
-    background-position: center top;
-
 }
 
+.mac-book-photo {
+
+background-image: url("https://images.unsplash.com/photo-1561152820-340780bc049e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+height: 600px;
+width: auto;
+background-repeat: no-repeat;
+padding: 20px;
+box-shadow: black 5px 5px;
+background-size: cover;
+}
+
+img.myPhoto {
+    height: 350px;
+    width: 350px;
+    border-radius: 150px;
+    box-shadow: black 5px 5px;
+    float: left;
+}
 
 dl .d-flex.row-wrap {
 size: 40em;
