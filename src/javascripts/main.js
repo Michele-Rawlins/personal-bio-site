@@ -1,6 +1,6 @@
 import 'bootstrap';
 import '../styles/main.scss';
-
+import util from './utils/utils';
 
 console.error('hi');
 const projects = [
@@ -15,27 +15,16 @@ const projects = [
     githubUrl: 'https://github.com/nss-evening-cohort-8/js-part-deux',
   },
 ];
-
-const printToDom = (divId, textToPrint) => {
-  const selectedDiv = document.getElementById(divId);
-  selectedDiv.innerHTML = textToPrint;
-};
-
-
 const createBio = () => {
   let domString = '';
   domString += '<div>';
-  domString += '<img class = "myPhoto" src = "./screenshots/IMG_5486.JPG" alt="black and white selfie"></img>';
+  domString += '<img class = "myPhoto" src = "../screenshots/IMG_5486.JPG" alt="black and white selfie"></img>';
   domString += '<p>Hello!!!  My name is Michele Rawlins.  Welcome to my page.</p>';
   domString += '<p> I have worked in manufacturing and the food industry for the last 32 years.</p>';
 
 
-  printToDom('bio-photo', domString);
+  util.printToDom('bio-photo', domString);
 };
-
-
-createBio();
-
 
 const createProjectCards = () => {
   const projectsList = '';
@@ -49,10 +38,11 @@ const createProjectCards = () => {
     domString += `<p> ${projectsList[i].url}</p>`;
     domString += `<p> ${projectsList[i].githubUrl}</p>`;
   }
-  printToDom('projectsPage', domString);
+  util.printToDom('projects', domString);
 };
 const init = () => {
   createProjectCards(projects);
+  createBio();
 };
 
 init();
