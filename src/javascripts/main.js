@@ -1,5 +1,5 @@
 import 'bootstrap';
-import './src/styles/main.scss';
+import '../styles/main.scss';
 
 
 console.error('hi');
