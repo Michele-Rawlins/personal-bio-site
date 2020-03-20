@@ -1,20 +1,10 @@
 import 'bootstrap';
 import '../styles/main.scss';
-import util from './utils/utils';
+import util from '../helpers/utils/utils';
+import projects from '../helpers/projectData';
 
 console.error('hi');
-const projects = [
-  {
-    title: 'Cool Project',
-    screenshot: 'http://gotoflashgames.com/files/file/033.jpg',
-    description: 'This is the best project', // A good project description includes 'the what', 'the why', and 'the how'.
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: true,
-    // eslint-disable-next-line max-len
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-    githubUrl: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-  },
-];
+
 const createBio = () => {
   let domString = '';
   domString += '<div>';
@@ -27,21 +17,20 @@ const createBio = () => {
 };
 
 const createProjectCards = () => {
-  const projectsList = '';
+  const projectsList = projects.getProjects;
   let domString = '';
-  for (let i = 0; i < projectsList.length; i++) {
-    if (projectsList[i].available === 'true');
-    domString += `<div id = "title">${projectsList[i].title}`;
-    domString += `<img src = ${projectsList[i].screenshot}>`;
-    domString += `<p> ${projectsList[i].description}</p>`;
-    domString += `<p> ${projectsList[i].technologiesUsed}</p>`;
-    domString += `<p> ${projectsList[i].url}</p>`;
-    domString += `<p> ${projectsList[i].githubUrl}</p>`;
-  }
+  projectsList.forEach((finishedProjects) => {
+    domString += `<div id = "title">${finishedProjects.title}`;
+    domString += `<img src = ${finishedProjects.screenshot}>`;
+    domString += `<p> ${finishedProjects.description}</p>`;
+    domString += `<p> ${finishedProjects.technologiesUsed}</p>`;
+    domString += `<p> ${finishedProjects.url}</p>`;
+    domString += `<p> ${finishedProjects.githubUrl}</p>`;
+  });
   util.printToDom('projects', domString);
 };
 const init = () => {
-  createProjectCards(projects);
+  createProjectCards();
   createBio();
 };
 
