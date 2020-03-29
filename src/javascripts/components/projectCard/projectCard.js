@@ -1,5 +1,3 @@
-import productCards from '../../../screenshots/productCards.png';
-
 import util from '../../helpers/utils/utils';
 import projects from '../../helpers/data/projectData';
 
