@@ -1,8 +1,8 @@
 
 import '../styles/main.scss';
 import util from './helpers/utils/utils';
-import projects from './helpers/data/projectData';
 import photograph from '../screenshots/IMG_5486.jpg';
+import projectCards from './components/projectCard/projectCard';
 
 
 console.error('hi');
@@ -18,21 +18,9 @@ const createBio = () => {
   util.printToDom('bio-photo', domString);
 };
 
-const createProjectCards = () => {
-  const projectsList = projects.getProjects();
-  let domString = '';
-  projectsList.forEach((finishedProjects) => {
-    domString += `<div id ="title">${finishedProjects.title}`;
-    domString += `<img src = ${finishedProjects.screenshot}>`;
-    domString += `<p>${finishedProjects.description}</p>`;
-    domString += `<p>${finishedProjects.technologiesUsed}</p>`;
-    domString += `<p>${finishedProjects.url}</p>`;
-    domString += `<p>${finishedProjects.githubUrl}</p>`;
-  });
-  util.printToDom('projects', domString);
-};
+
 const init = () => {
-  createProjectCards();
+  projectCards.createProjectCards();
   createBio();
 };
 
