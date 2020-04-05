@@ -1,0 +1,26 @@
+{
+"projects1": {
+  "title": "Product Cards",
+  "screenshot": "`${productCard}`",
+  "description": "This is my very first project",
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  "available": true,
+  "githubUrl": "https://github.com/Michele-Rawlins/product-cards"
+  },
+  "projects2":{
+    "title": "Pet Adopt",
+    "screenshot":" `${petAdopt}`",
+    "description": "This is my second project",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "githubUrl": "https://github.com/Michele-Rawlins/pet-adoption2"
+  },
+  "projects3": {
+    "title": "Bear Watcher",
+    "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+    "description": "This is the harder project", 
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "githubUrl": "https://github.com/Michele-Rawlins/bearWatcher"
+  }
+}
