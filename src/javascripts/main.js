@@ -1,4 +1,7 @@
 
+import firebase from 'firebase/app';
+import apiKeys from './helpers/apiKeys.json';
+
 import '../styles/main.scss';
 import util from './helpers/utils/utils';
 import photograph from '../screenshots/IMG_5486.jpg';
@@ -21,6 +24,7 @@ const createBio = () => {
 
 
 const init = () => {
+  firebase.initializeApp(apiKeys.firebaseKeys);
   projectCards.createProjectCards();
   createBio();
 };
