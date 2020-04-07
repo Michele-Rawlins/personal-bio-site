@@ -7,6 +7,7 @@ const getProjects = () => new Promise((resolve, reject) => {
   axios.get(`${baseUrl}/projects.json`)
     .then((response) => {
       const demProjects = response.data;
+      console.error('whats up', demProjects);
       const projects = [];
       if (demProjects) {
         Object.keys(demProjects).forEach((projectId) => {
