@@ -1,26 +1,30 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
-
+@import '../styles/colors.scss';
 
 body {
-    background-color: #e7e1d8;
-    background-image: url("https://www.transparenttextures.com/patterns/stressed-linen.png");
-     
+    // background-image: url("https://www.transparenttextures.com/patterns/stressed-linen.png");
+    background-image: url("https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
 }
 .intro-welcome {
     text-align: center;
-    color: rgb(96, 201, 219)
+    color: $color5-opal;
 }
-body.tech{
-    background-color: white;
+
+p {
+    color: $color5-opal;
 }
 
 #navLinks {
-    color: rgb(96, 201, 219);
-    text-decoration: rgb(96,201,219);
-}
+    color: $color5-opal;
+   }
+
 li {
-    color: rgb(96, 201, 219);
+   color: $color5-opal;
 }
 
 
