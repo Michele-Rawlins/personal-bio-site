@@ -47,15 +47,20 @@ img.myPhoto {
     height: 350px;
     width: 350px;
     border-radius: 150px;
-    box-shadow: black 5px 5px;
+    // box-shadow: black 5px 5px;
     float: inline-end;
     margin: 15px 15px;
+    opacity: .5;
 }
 dl .d-flex.row-wrap {
 size: 40em;
 
 }
 
+.technology-container {
+    width: 24em;
+    height: 24em;
+}
 
 #technology {
 margin: 20px 20px;
