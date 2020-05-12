@@ -11,12 +11,13 @@ cont projectPhotos = [
   {
     name: "Pet Adoption",
     image: `${PetAdoption}`,
-  }
+  },
 {
   name: "Bear Watcher",
     image: `${PetAdoption}`,
 }
 
-];
+]
+
 
 export default { projectPhotos };
