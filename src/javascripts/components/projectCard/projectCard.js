@@ -3,7 +3,7 @@ import projects from '../../helpers/data/projectsData';
 import 
 
 const createProjectCards = () => {
-  // const projectsList =
+  const projectsList =
   projects.getProjects()
     .then((projectsList) => {
       let domString = '<div class = "d-flex flex-wrap project container">';
