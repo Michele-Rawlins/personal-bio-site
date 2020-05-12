@@ -1,7 +1,7 @@
 {
 "projects1": {
   "title": "Product Cards",
-  "screenshot": "`${productCard}`",
+  "screenshot": "",
   "description": "This is my very first project",
   "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
   "available": true,
@@ -9,7 +9,7 @@
   },
   "projects2":{
     "title": "Pet Adopt",
-    "screenshot":" `${petAdopt}`",
+    "screenshot":"",
     "description": "This is my second project",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
@@ -17,10 +17,18 @@
   },
   "projects3": {
     "title": "Bear Watcher",
-    "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+    "screenshot": "",
     "description": "This is the harder project", 
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
     "githubUrl": "https://github.com/Michele-Rawlins/bearWatcher"
+  },
+  "projects4": {
+    "title": "Nautilus",
+    "screenshot": "",
+    "description": "This is a group project that required full Crud.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript,JSon, Version Control with Github",
+    "available": true,
+    "githubUrl": "https://github.com/Michele-Rawlins/nutshell-wookies"  
   }
 }
