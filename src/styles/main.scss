@@ -2,9 +2,10 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import '../styles/colors.scss';
 
+
 body {
     // background-image: url("https://www.transparenttextures.com/patterns/stressed-linen.png");
-    background-image: url("https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-image: url("https://images.unsplash.com/photo-1542393545-10f5cde2c810?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -56,10 +57,19 @@ dl .d-flex.row-wrap {
 size: 40em;
 
 }
+.tech-header {
+    text-align: center;
+    color: $color5-opal;
+}
 
 .technology-container {
+    text-align: center;
     width: 24em;
     height: 24em;
+    padding: 10px;
+}
+.tech-icon {
+    text-align: center;
 }
 
 #technology {
