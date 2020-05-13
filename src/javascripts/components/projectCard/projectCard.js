@@ -11,7 +11,7 @@ const createProjectCards = () => {
         if (finishedProjects.available === true) {
           domString += '<div class="card-group d-flex row-wrap">';
           domString += '<div class="card">';
-          domString += '<div class="card-body col-4">';
+          domString += '<div class="card-body col-3">';
           domString += `<img src="${finishedProjects.screenshot}" class="card-img-top" alt="Picture of candy product cards">`;
           domString += `<h5 class="card-title">${finishedProjects.title}</h5>`;
           domString += `<p class="card-text">${finishedProjects.description}</p>`;
