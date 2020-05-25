@@ -14,7 +14,7 @@ const technologies = () => {
   domString += '<div id="technologies">';
   domString += '<h2 class="tech-header"> Technologies</h2>';
   domString += '<div class="technology-container">';
-  domString += '<div class="row row-cols-4">';
+  domString += '<div class="row row-cols-4 tech-icon">';
   domString += `<img class="col tech-icon" src="${html}"></img>`;
   domString += `<img class="col tech-icon" src="${css}"></img>`;
   domString += `<img class="col tech-icon" src="${bootstrap}"></img>`;
