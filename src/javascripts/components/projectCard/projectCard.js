@@ -1,7 +1,6 @@
 import util from '../../helpers/utils/utils';
 import projects from '../../helpers/data/projectsData';
 
-
 const createProjectCards = () => {
   projects.getProjects()
     .then((projectsList) => {
@@ -12,6 +11,7 @@ const createProjectCards = () => {
           domString += '<div class="card-group d-flex row-wrap">';
           domString += '<div class="card">';
           domString += '<div class="card-body col-3">';
+          domString += '<div class="row">';
           domString += `<img src="${finishedProjects.screenshot}" class="card-img-top" alt="Picture of candy product cards">`;
           domString += `<h5 class="card-title">${finishedProjects.title}</h5>`;
           domString += `<p class="card-text">${finishedProjects.description}</p>`;
