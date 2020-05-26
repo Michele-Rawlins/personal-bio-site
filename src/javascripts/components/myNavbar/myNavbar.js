@@ -3,6 +3,7 @@ import compass from '../../../screenshots/compass.png';
 
 const myNavbar = () => {
   let domString = '';
+  domString += '<div id=navbar">';
   domString += '<nav class="navbar navbar-expand-lg navbar-light bg-light">';
   domString += `<img class="navbar-brand">${compass}</img>`;
   domString += ' <div class="navbar-nav">';
