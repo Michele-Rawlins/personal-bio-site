@@ -12,7 +12,7 @@ import myNavbar from './components/myNavbar/myNavbar';
 
 const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
-  // myNavbar.myNavbar();
+  myNavbar.myNavbar();
   bio.createBio();
   projectCards.createProjectCards();
   tech.technologies();
