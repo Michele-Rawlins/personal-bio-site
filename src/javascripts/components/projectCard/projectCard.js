@@ -8,9 +8,10 @@ const createProjectCards = () => {
       console.error('hello', projectsList);
       projectsList.forEach((finishedProjects) => {
         if (finishedProjects.available === true) {
-          domString += '<div class="card-group d-flex row-wrap">';
+          domString += '<div class="col-md-4 col-lg-4 card-separation">';
+          // domString += '<div class="card-group d-flex flex-wrap">';
           domString += '<div class="card">';
-          domString += '<div class="card-body col-3">';
+          domString += '<div class="card-body col-4">';
           domString += '<div class="row">';
           domString += `<img src="${finishedProjects.screenshot}" class="card-img-top" alt="Picture of candy product cards">`;
           domString += `<h5 class="card-title">${finishedProjects.title}</h5>`;
@@ -21,7 +22,9 @@ const createProjectCards = () => {
           domString += '</div>';
           domString += '</div>';
           domString += '</div>';
+          domString += '</div>';
           domString += '<div class="card-footer">';
+          domString += '</div>';
         }
 
         util.printToDom('projects', domString);

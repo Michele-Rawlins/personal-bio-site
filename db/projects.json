@@ -1,7 +1,7 @@
 {
 "projects1": {
   "title": "Product Cards",
-  "screenshot": "https://www.flickr.com/photos/188592701@N03/49932153253/in/dateposted-public/",
+  "screenshot": "https://live.staticflickr.com/65535/49932153253_f0e8db529b_c.jpg",
   "description": "This is my very first project",
   "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
   "available": true,
@@ -9,7 +9,7 @@
   },
   "projects2":{
     "title": "Pet Adopt",
-    "screenshot":"https://www.flickr.com/photos/188592701@N03/49932974957/in/dateposted-public/",
+    "screenshot":"https://live.staticflickr.com/65535/49932974957_43d1d5a63d_c.jpg",
     "description": "This is my second project",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
@@ -17,7 +17,7 @@
   },
   "projects3": {
     "title": "Bear Watcher",
-    "screenshot": "https://www.flickr.com/photos/188592701@N03/49932975682/in/dateposted-public/",
+    "screenshot": "https://live.staticflickr.com/65535/49932975682_ec93f6c9fa_c.jpg",
     "description": "This is the harder project", 
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
@@ -25,7 +25,7 @@
   },
   "projects4": {
     "title": "Nautilus",
-    "screenshot": "https://www.flickr.com/photos/188592701@N03/49932152628/in/dateposted-public/",
+    "screenshot": "https://live.staticflickr.com/65535/49932152628_a2fcda80d3_c.jpg",
     "description": "This is a group project that required full Crud.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript,JSon, Version Control with Github",
     "available": true,
