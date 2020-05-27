@@ -82,7 +82,10 @@ size: 40em;
     display: block;
     
 }
-
+.navbar-brand {
+    width: 150px;
+    height: 150px;
+}
 #tech-icon {
     margin-left: center;
     text-align: center;
@@ -90,8 +93,16 @@ size: 40em;
 }
 .tech-icon {
     text-align: center;
+    height: 100px;
+    width: 100px;
+    opacity: .5;
 }
-
+.navbar {
+   font-size: larger;
+   font-weight: 300;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
 #technology {
 margin: 20px 20px;
 width: 40px;
