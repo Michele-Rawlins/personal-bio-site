@@ -56,6 +56,9 @@ li {
 // }
 #bioPage {
     text-align: center;
+    font-size: larger;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
 img.myPhoto {
@@ -83,8 +86,11 @@ size: 40em;
     
 }
 .navbar-brand {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
+    padding: 0px;
+    margin: 0;
+    background-color: $color4-Gray;
 }
 #tech-icon {
     margin-left: center;
@@ -100,8 +106,8 @@ size: 40em;
 .navbar {
    font-size: larger;
    font-weight: 300;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+   background-color: #648de0; 
 }
 #technology {
 margin: 20px 20px;
