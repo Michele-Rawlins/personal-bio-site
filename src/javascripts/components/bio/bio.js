@@ -1,10 +1,10 @@
 import util from '../../helpers/utils/utils';
-import photograph from '../../../screenshots/IMG_5486.jpg';
+// import photograph from '../../../screenshots/IMG_5486.jpg';
 
 const createBio = () => {
   let domString = '';
   domString += '<div id = "bioPage">';
-  domString += `<img class = "myPhoto" src="${photograph}" alt="black and white selfie">`;
+  // domString += `<img class = "myPhoto" src="${photograph}" alt="black and white selfie">`;
   domString += '<p>Hello!!!  My name is Michele Rawlins.  Welcome to my page.</p>';
   domString += '<p> I have worked in manufacturing and the food industry for the last 32 years.</p>';
   domString += '<p> Motivated, goal-oriented and driven business professional.(Just completed a year long part-time Web Developemnt Bootcamp while working full-time).>';
