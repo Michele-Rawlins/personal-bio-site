@@ -1,5 +1,6 @@
 import util from '../../helpers/utils/utils';
 // import compass from '../../../screenshots/compass.png';
+import bioPhoto from '../../../screenshots/IMG_5486.jpg';
 
 const myNavbar = () => {
   let domString = '';
@@ -10,6 +11,7 @@ const myNavbar = () => {
   domString += ' <a class="nav-item nav-link active" href="#bio-photo">Bio</a>';
   domString += ' <a class="nav-item nav-link" href="#technologies">Technologies</a>';
   domString += ' <a class="nav-item nav-link" href="#projects">Projects</a>';
+  domString += `<img class="navbar-brand mr-4" src="${bioPhoto}"></img>`;
   domString += '</div>';
   domString += '</nav>';
 
