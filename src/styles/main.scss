@@ -76,8 +76,19 @@ size: 40em;
 .tech-header {
     text-align: center;
     color: $color6-navy;
+    font-family: Rock Salt;
+   
 }
 
+#techPage {
+    font-family: Rock Salt;
+    background-color: rgb(150, 73, 150);
+    // border: black solid;
+    border-radius: 50px;
+    box-shadow: 5px;
+    opacity: .8;
+
+}
 #technologies {
     text-align: center;
     padding: 10px 10px 5px 5px;
@@ -90,7 +101,13 @@ size: 40em;
     padding: 0px;
     margin: 0;
 }
-  
+  .cardDisplay {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+
+
 .tech-icon {
     text-align: center;
     width: 100px;
@@ -129,3 +146,21 @@ img.miniIcons {
 p.footer {
     text-align: center;
 }
+.carousel-inner img {
+    min-height: 300px;
+    max-height: 600px;
+  }
+  
+  .carousel-item {
+    justify-content: center;
+  }
+  
+  #myCarousel {
+    min-width: 300px;
+    max-width: 850px;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.509);
+    padding: 5px;
+  }
