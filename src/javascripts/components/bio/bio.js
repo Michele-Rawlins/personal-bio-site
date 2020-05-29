@@ -3,7 +3,7 @@ import photograph from '../../../screenshots/IMG_5486.jpg';
 
 const createBio = () => {
   let domString = '';
-  domString += '<div class="card cardDisplay col-md-6 col col-lg-4" id="bioPage">';
+  domString += '<div class="card cardDisplay col-md-6 col col-lg-6" id="bioPage">';
   domString += `<img class = "myPhoto" src="${photograph}" alt="black and white selfie">`;
   domString += '<p>Hello!!!  My name is Michele Rawlins.  Welcome to my page.</p>';
   domString += '<p> I have worked in manufacturing and the food industry for the last 32 years.</p>';
