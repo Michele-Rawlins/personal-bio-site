@@ -20,14 +20,14 @@ body {
 }
 
 p {
-    color:$color6-navy;
+    color: black;
     font-size: 900;
     font-weight: 900;
     font-family: Rock Salt;
    }
 
 .nav-links {
-    color: $color6-navy;
+    color: black;
     padding: 20px;
 }
 #navLinks {
@@ -56,8 +56,12 @@ li {
     width: 50%;
 }
 h5 {
-    color: whitesmoke;
+    color: black;
     font-family: Rock Salt;
+}
+p.carousel-paragraph {
+    color: black;
+    font-size: medium;
 }
 img.myPhoto {
     text-align: center;
@@ -75,14 +79,14 @@ size: 40em;
 }
 .tech-header {
     text-align: center;
-    color: $color6-navy;
+    color: black;
     font-family: Rock Salt;
    
 }
 
 #techPage {
     font-family: Rock Salt;
-    background-color: white;
+    background-color: whitesmoke;
     // background-color: rgb(247, 57, 57);
     // border: black solid;
     border-radius: 50px;
@@ -90,6 +94,7 @@ size: 40em;
     opacity: .8;
     margin: 0 auto;
     width: 50%;
+    padding: 25px;
 
 }
 #technologies {
@@ -165,10 +170,10 @@ width: 600px
     justify-content: center;
   }
   
-//   #myCarousel {
-//     min-width: 300px;
-//     max-width: 850px;
-//   }
+  #myCarousel {
+    min-width: 300px;
+    max-width: 850px;
+  }
   
 //   .carousel-caption {
 //     background-color: rgba(0, 0, 0, 0.509);
