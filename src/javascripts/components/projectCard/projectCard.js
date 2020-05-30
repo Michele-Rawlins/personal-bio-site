@@ -39,7 +39,7 @@ const createProjectCards = () => {
   domString += '<div class="carousel-inner">';
   domString += '<div class="carousel-item card-display col-md-6 active">';
   domString += '<h5>Project Cards</h5>';
-  domString += '<p>My very first project.  This project was an introduction to Html,CSS, Vanilla Javascript and version control on Github.</p>';
+  domString += '<p class="carousel-paragraph">My very first project.  This project was an introduction to Html,CSS, Vanilla Javascript and version control on Github.</p>';
   domString += '<img class="carousel-image" src="https://live.staticflickr.com/65535/49932153253_f0e8db529b_c.jpg" class="d-block w-100" alt="Product cards of candy">';
   domString += '<div class="carousel-caption d-none d-md-block">';
   domString += '<a href="https://github.com/Michele-Rawlins/product-cards"></a>';
@@ -47,7 +47,7 @@ const createProjectCards = () => {
   domString += '</div>';
   domString += '<div class="carousel-item card-display col-md-6">';
   domString += '<h5>Pet Adopt</h5>';
-  domString += '<p>This project utilized, HTML, CSS, Javascript and Github version control.</p>';
+  domString += '<p class="carousel-paragraph">This project utilized, HTML, CSS, Javascript and Github version control.</p>';
   domString += '<img class="carousel-image"src="https://live.staticflickr.com/65535/49932974957_43d1d5a63d_c.jpg" class="d-block w-100" alt="Card of animals">';
   domString += '<div class="carousel-caption d-none d-md-block">';
   domString += '<a href="https://github.com/Michele-Rawlins/pet-adoption2"></a>';
@@ -55,7 +55,7 @@ const createProjectCards = () => {
   domString += '</div>';
   domString += '<div class="carousel-item card-display col-md-6">';
   domString += '<h5>Bear Watcher</h5>';
-  domString += '<p>Technologies used are HTML, CSS, Javascript and Github version control.</p>';
+  domString += '<p class="carousel-paragraph">Technologies used are HTML, CSS, Javascript and Github version control.</p>';
   domString += '   <img class="carousel-image"src="https://live.staticflickr.com/65535/49932975682_ec93f6c9fa_c.jpg" class="d-block w-100" alt="...">';
   domString += '<div class="carousel-caption d-none d-md-block">';
   domString += '<div class="p-carousel">';
@@ -65,12 +65,13 @@ const createProjectCards = () => {
   domString += '</div>';
   domString += '<div class="carousel-item card-display col-md-6">';
   domString += '     <h5>Nautilus</h5>';
-  domString += '  <p>This project involved full Crud.  We used HTML, CSS, Javascript, JQuery, Sass, Json and version control in Github.   We worked in teams and had to coordinate the project with each individual responsiblie for a certain page and section and worked through gitcidents. </p>';
+  domString += '  <p class="carousel-paragraph">This project involved full Crud.  We used HTML, CSS, Javascript, JQuery, Sass, Json and version control in Github.   We worked in teams and had to coordinate the project with each individual responsiblie for a certain page and section and worked through gitcidents. </p>';
   domString += '  <img class="carousel-image"src="https://live.staticflickr.com/65535/49932152628_a2fcda80d3_c.jpg" class="d-block w-100" alt="...">';
   domString += '  <div class="carousel-caption d-none d-md-block">';
   domString += '    <a href="https://github.com/Michele-Rawlins/nutshell-wookies"></a>';
   domString += '   </div>';
   domString += '</div>';
+  domString += ' </div>';
   domString += ' </div>';
   domString += '<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">';
   domString += '  <span class="carousel-control-prev-icon" aria-hidden="true"></span>';
