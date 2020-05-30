@@ -18,7 +18,7 @@ const createProjectCards = () => {
   //         domString += `<img class="card-img-top project-screenshot" src="${finishedProjects.screenshot}">`;
   //         domString += `<h5 class="project-title card-title">${finishedProjects.title}</h5>`;
   //         domString += `<p class="project-text card-text">${finishedProjects.description}</p>`;
-  //         domString += `<p class = "card-technology">${finishedProjects.technologiesUsed}</p>`;
+  //         domString += `<p class="card-technology">${finishedProjects.technologiesUsed}</p>`;
   //         domString += `<p>${finishedProjects.url}</p>`;
   //         domString += `<p>${finishedProjects.githubUrl}</p>`;
   //         domString += '</div>';
@@ -28,7 +28,8 @@ const createProjectCards = () => {
   //         domString += '<div class="card-footer">';
   //         domString += '</div>';
   //       }
-
+  domString += '<h2 class="project-title">Projects</h2>';
+  domString += '<h6 class="project-title">(Project photos are clickable links within carousel)</h6>';
   domString += '<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">';
   domString += '<ol class="carousel-indicators">';
   domString += '<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>';

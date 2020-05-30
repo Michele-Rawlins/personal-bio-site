@@ -8,6 +8,7 @@ import webpack from '../../../screenshots/webpackpng.png';
 import react from '../../../screenshots/lightReact.png';
 import js from '../../../screenshots/javascript.png';
 import jquery from '../../../screenshots/jquery.png';
+import axios from '../../../screenshots/axios.png';
 import util from '../../helpers/utils/utils';
 
 
@@ -27,6 +28,7 @@ const technologies = () => {
   domString += `<img class="tech-icon" src="${jquery}"></img>`;
   domString += `<img class="tech-icon" src="${react}"></img>`;
   domString += `<img class="tech-icon" src="${webpack}"></img>`;
+  domString += `<img class="tech-icon" src="${axios}"></img>`;
   domString += '</div>';
   domString += '</div>';
   util.printToDom('technologies', domString);
