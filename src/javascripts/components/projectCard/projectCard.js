@@ -66,7 +66,13 @@ const createProjectCards = () => {
   domString += '<p class="carousel-paragraph">This project involved full Crud.  We used HTML, CSS, Javascript, JQuery, Sass, Json and version control in Github.   We worked in teams and had to coordinate the project with each individual responsiblie for a certain page and section and worked through gitcidents. </p>';
   domString += '<a href="https://nautilus-explorer.web.app"><img class="carousel-image"src="https://live.staticflickr.com/65535/49932152628_a2fcda80d3_c.jpg" class="d-block w-100" alt="..."></a>';
   domString += '<div class="carousel-caption d-none d-md-block">';
-  domString += '</a>';
+  domString += '</div>';
+  domString += '</div>';
+  domString += '<div class="carousel-item card-display col-md-6">';
+  domString += '<h5>Mushroom Picker</h5>';
+  domString += '<p class="carousel-paragraph">I used HTML, CSS, Javascript, JQuery, Sass, Json, React and version control in Github.</p>';
+  domString += '<a href="https://github.com/Michele-Rawlins/mushroom-picker"><img class="carousel-image"src="<a data-flickr-embed="true" href="https://www.flickr.com/photos/188592701@N03/49961042687/in/dateposted-public/" title="Mushroom Picker"><img src="https://live.staticflickr.com/65535/49961042687_89d802ba12_c.jpg" class="d-block w-100" alt="..."></a>';
+  domString += '<div class="carousel-caption d-none d-md-block">';
   domString += '</div>';
   domString += '</div>';
   domString += '</div>';
