@@ -64,7 +64,7 @@ const createProjectCards = () => {
   domString += '<div class="carousel-item card-display col-md-6">';
   domString += '<h5>Nautilus</h5>';
   domString += '<p class="carousel-paragraph">This project involved full Crud.  We used HTML, CSS, Javascript, JQuery, Sass, Json and version control in Github.   We worked in teams and had to coordinate the project with each individual responsiblie for a certain page and section and worked through gitcidents. </p>';
-  domString += '<a href="https://github.com/Michele-Rawlins/nutshell-wookies"><img class="carousel-image"src="https://live.staticflickr.com/65535/49932152628_a2fcda80d3_c.jpg" class="d-block w-100" alt="..."></a>';
+  domString += '<a href="https://nautilus-explorer.web.app"><img class="carousel-image"src="https://live.staticflickr.com/65535/49932152628_a2fcda80d3_c.jpg" class="d-block w-100" alt="..."></a>';
   domString += '<div class="carousel-caption d-none d-md-block">';
   domString += '</a>';
   domString += '</div>';
