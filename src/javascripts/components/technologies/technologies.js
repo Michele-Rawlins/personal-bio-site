@@ -15,7 +15,7 @@ import util from '../../helpers/utils/utils';
 const technologies = () => {
   let domString = '';
   // domString += '<div id="technologies">';
-  domString += '<div class="card cardDisplay cols-10" id="techPage">';
+  domString += '<div class="card cardDisplay cols-12" id="techPage">';
   domString += '<h2 class="tech-header"> Technologies</h2>';
   domString += '<div class="row row-cols-10" id="tech-icon">';
   domString += `<img class="tech-icon" src="${html}"></img>`;
