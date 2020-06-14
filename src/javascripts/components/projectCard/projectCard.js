@@ -19,6 +19,7 @@ const createProjectCards = () => {
           domString += `<img class="card-img-top project-screenshot" src="${finishedProjects.screenshot}">`;
           domString += `<p class="project-text card-text">${finishedProjects.description}</p>`;
           domString += `<p class="card-technology project-text">${finishedProjects.technologiesUsed}</p>`;
+          domString += '<div></div>';
           domString += `<a class="project-text" href =${finishedProjects.url}><span class="text-target">url:<span>${finishedProjects.url}</a>`;
           domString += '<div></div>';
           domString += `<a class="project-text" href =${finishedProjects.githubUrl}>GitHub: ${finishedProjects.githubUrl}</a>`;
