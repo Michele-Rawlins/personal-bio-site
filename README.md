@@ -4,7 +4,7 @@ This is a biography about me.  My work history, the technologies I have learned 
 
 
 ## Screen shots
-![Main Screen](./src/screenshots/pageScreenShot.png)
+![Main Screen](./src/screenshots/PersonalBioSite.PNG)
 
 
 ## Instructions how to run
@@ -13,4 +13,4 @@ This is a biography about me.  My work history, the technologies I have learned 
 3. On your command line run `hs -p 9999`.
 4.  Navigate to local host `http://localhost:9999`
 OR click the link below:
-5.  https://personal-bio-site-96604.web.app
+5.  https://personal-bio-site-9e2e1.web.app
