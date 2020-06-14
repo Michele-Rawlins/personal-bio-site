@@ -14,3 +14,4 @@ This is a biography about me.  My work history, the technologies I have learned 
 4.  Navigate to local host `http://localhost:9999`
 OR click the link below:
 5.  https://personal-bio-site-9e2e1.web.app
+npm start

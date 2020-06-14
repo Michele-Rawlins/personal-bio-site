@@ -1,0 +1,44 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+.navbar {
+   font-size: larger;
+  font-weight: 500;
+  background-color:#f0dfc8; 
+  font-family: Rock Salt;
+  padding: 5px;
+  color: #08464d;
+ 
+}
+.navbar-nav {
+  color: #08464d;
+}
+
+.nav-item {
+  color: #08464d;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: Rock Salt;
+  margin: 20px;
+  padding: 50px;
+  color: #08464d;
+
+}
+
+
+a {
+  color:#08464d;
+}
+
+.navbar-brand {
+  width: 400px;
+  height: 200px;
+  padding: 5px;
+  margin: 0;
+  
+}
