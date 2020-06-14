@@ -6,7 +6,7 @@ import './bio.scss';
 
 const createBio = () => {
   let domString = '';
-  domString += '<div class="card cardDisplay col-md-12 col col-md-12 w-75" id="bioPage">';
+  domString += '<div class="card cardDisplay col-md-12 col col-md-12 w-70" id="bioPage">';
   domString += '<p class="intro">Welcome to My Page</p>';
   domString += `<img class = "myPhoto" src="${photograph}" alt="black and white selfie">`;
   domString += '<p class="bio-text">Hello!!!  My name is Michele Rawlins.  Welcome to my page.</p>';
