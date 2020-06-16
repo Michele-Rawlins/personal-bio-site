@@ -8,7 +8,7 @@
 
 body {
     // background-image: linear-gradient(to bottom, rgba(255,255,255,.1) 0%, rgba(255,255,255,.1) 100%),url(https://images.unsplash.com/photo-1488409688217-e6053b1e8f42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-    // background: url(https://images.unsplash.com/photo-1501696045407-7613cdd8f968?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center fixed; 
+    // background: url(https://images.unsplash.com/photo-1580508244245-c446ca981a6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center fixed; 
     background: url(https://images.unsplash.com/photo-1543097676-44e5a5bd4ef1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -135,15 +135,16 @@ height: 40px;
     color:#08464d;
 }
 .project-text-git {
-    font-family: Abirl Fatface;
-    color: #08464d
+    font-family: Rock Salt;
+    color:  #22d8dc;;
+    text-decoration: underline;
 }
 
 .project-text-url {
     text-align: center;
     font-family: Rock Salt;
     text-decoration: underline;
-    color: #08464d;
+    color:  #22d8dc;;
 
 }
 
