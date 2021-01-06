@@ -1,4 +1,6 @@
 {
-  "projects": "nameOfProject"
+  "projects": "nameOfProject",
+  "tech": "techId"
+  
   
 }

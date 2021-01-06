@@ -13,11 +13,18 @@
   font-family: Rock Salt;
   padding: 5px;
   color: #504d65;
+  text-align: center;
+
  
 }
+
+
 .navbar-nav {
   color: #504d65;
+ width: 100%;
+  text-align: center;
 }
+
 
 .nav-item {
   color: #504d65;
@@ -26,6 +33,7 @@
   font-family: Rock Salt;
   margin: 20px;
   padding: 50px;
+  
 
 
 }
@@ -33,6 +41,8 @@
 
 a {
   color:#504d65;
+  transform: rotate(40);
+  display: inline-block;
 }
 
 .navbar-brand {

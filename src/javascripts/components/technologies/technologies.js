@@ -19,6 +19,8 @@ import reactLogo from '../../../screenshots/react.png';
 import sqlserver from '../../../screenshots/sqlserver.png';
 import visualStudio from '../../../screenshots/visualstudio.png';
 import vsc from '../../../screenshots/vsc.png';
+import postman from '../../../screenshots/postman.png';
+import moqups from '../../../screenshots/moqup.png';
 
 
 import './technologies.scss';
@@ -50,6 +52,8 @@ const technologies = () => {
   domString += `<img class="tech-icon" src="${sqlserver}"></img>`;
   domString += `<img class="tech-icon" src="${visualStudio}"></img>`;
   domString += `<img class="tech-icon" src="${vsc}"></img>`;
+  domString += `<img class="tech-icon" src="${postman}"></img>`;
+  domString += `<img class="tech-icon" src="${moqups}"></img>`;
   domString += '</div>';
   domString += '</div>';
   util.printToDom('technologies', domString);
