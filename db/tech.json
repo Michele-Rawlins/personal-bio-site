@@ -1,0 +1,95 @@
+{
+  "techs": {
+    "tech1":{
+          "name": "Javascript",
+          "image": "javascript.png",
+          "link": "https://www.javascript.com/"
+      },
+     "tech2":{
+          "name": "jQuery",
+          "image": "jquery.png",
+          "link": "https://jquery.com/"
+      },
+      "tech3":{
+          "name": "Git",
+          "image": "git.png",
+          "link": "https://git-scm.com"
+      },
+      "tech4":{
+          "name": "Github",
+          "image": "github.png",
+          "link": "https://github.com/"
+      },
+     "tech5":{
+          "name": "HTML5",
+          "image": "html5.png",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+      },
+      "tech6":{
+          "name": "CSS3",
+          "image": "css3.png",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+      },
+      "tech7":{
+          "name": "Sass",
+          "image": "sass.png",
+          "link": "https://sass-lang.com/"
+      },
+      "tech8":{
+          "name": "Bootstrap",
+          "image": "bootstrap.png",
+          "link": "https://getbootstrap.com/"
+      },
+     "tech9":{
+          "name": "Firebase",
+          "image": "firebase.png",
+          "link": "https://firebase.google.com"
+      },
+      "tech10":{
+          "name": "NPM",
+          "image": "npm.png",
+          "link": "https://www.npmjs.com/"
+      },
+      "tech11":{
+          "name": "SQLite3",
+          "image": "sqlite.png",
+          "link": "https://www.sqlite.org/"
+      },
+     "tech12":{
+          "name": "SQL Server",
+          "image": "sqlserver.png",
+          "link": "https://www.microsoft.com/en-us/sql-server/sql-server-2017"
+      },
+      "tech13":{
+          "name": "Visual Studio Code",
+          "image": "vsc.png",
+          "link": "https://code.visualstudio.com/"
+      },
+      "tech14":{
+          "name": "C#",
+          "image": "csharp.png",
+          "link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+      },
+     "tech15":{
+          "name": ".NET Core",
+          "image": "dotnetcore.png",
+          "link": "https://www.microsoft.com/net/"
+      },
+     "tech16":{
+          "name": "Visual Studio",
+          "image": "visualstudio.png",
+          "link": "https://www.visualstudio.com/vs/"
+      },
+     "tech17":{
+          "name": ".Net MVC",
+          "image": "aspnetMVC.png",
+          "link": "https://www.asp.net/mvc"
+      },
+      "tech18":{
+          "name": "ES lint",
+          "image": "eslint.png",
+          "link": "https://eslint.org/"
+      }
+    }
+}
+
