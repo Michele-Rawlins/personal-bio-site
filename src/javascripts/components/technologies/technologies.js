@@ -56,6 +56,7 @@ const technologies = () => {
   domString += `<img class="tech-icon" src="${moqups}"></img>`;
   domString += '</div>';
   domString += '</div>';
+  domString += '<hr></hr>';
   util.printToDom('technologies', domString);
 };
 

@@ -8,17 +8,19 @@ const createProjectCards = () => {
   projects.getProjects()
     .then((projectsList) => {
       let domString = '<div class="d-flex flex-wrap project container">';
+      domString += '<p class="project-title">Projects</p>';
       console.error('hello', projectsList);
       projectsList.forEach((finishedProjects) => {
         if (finishedProjects.available === true) {
           domString += '<div class="col-md-12">';
           // domString += '<div class="card">';
-          domString += '<div class="card-body col-md-12">';
+          // domString += '<div class="p-2 col-example text-center d-flex col-3">';
           // domString += '<div class="row">';
+          domString += '<div class="card-body col-md-12">';
           domString += `<h5 class="project-title card-title">${finishedProjects.title}</h5>`;
           domString += `<img class="card-img-top project-screenshot" src="${finishedProjects.screenshot}">`;
-          domString += `<p class="project-text card-text">${finishedProjects.description}</p>`;
-          domString += `<p class="card-technology project-text">${finishedProjects.technologiesUsed}</p>`;
+          domString += `<p class="project-text-description card-text">${finishedProjects.description}</p>`;
+          domString += `<p class="card-technology project-text-tech"><u>Technologies Used:</u> ${finishedProjects.technologiesUsed}</p>`;
           domString += '<div></div>';
           domString += `<a class="project-text-url" href =${finishedProjects.url}><span class="text-target"><span>Website</a>`;
           domString += '<div></div>';

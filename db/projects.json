@@ -2,7 +2,7 @@
 		"projects2": {
 		"title": "Nautilus",
 		"screenshot": "https://live.staticflickr.com/65535/49932152628_a2fcda80d3_c.jpg",
-		"description": "This is a group project that required full Crud.",
+		"description": "Nautilus Explorer is a dashboard for a Captain and his crew aboard a submarine. It allows users to keep track of, update, add and delete Crew members, Destinations, Species and Environmental Data.",
 		"technologiesUsed": "HTML, CSS, Vanilla JavaScript,JSon, Bootstrap, JQuery, Sass, Webpack, Momet.js, Firebase,ES6 Modules,Version Control with Github",
 		"available": true,
 		"url": "https://nautilus-explorer.web.app",
@@ -11,7 +11,7 @@
 		"projects3": {
 		"title": "Renaissance Faire",
 		"screenshot": "https://live.staticflickr.com/65535/50808123357_0091ca7671_k.jpg",
-		"description": "This is a group project that had full Crud completed.  We added full Crud on Single Event,filters and graphs",
+		"description": "My Team inherited this project from another group. We learned to work with someone else's code. Renaissance Faire allows the owners of a company who run Renaissance Faires across the country to keep track of, update, add and delete events and all the things available at those events.",
 		"technologiesUsed": "HTML, CSS, Vanilla JavaScript,JSon, Bootstrap, JQuery, Sass, Webpack, Momet.js, Firebase, ES6 Modules, AMCharts, Version Control with Github",
 		"available": true,
 		"url": "https://renaissance-faire.web.app/",
@@ -20,7 +20,7 @@
 	"projects4": {
 		"title": "GettinFit",
 		"screenshot": "https://live.staticflickr.com/65535/50807228968_33b90197b9_k.jpg",
-		"description": "BackEnd Capstone",
+		"description": "This project allows a user to input their meals and workouts.  It will return the calories consumed and the calories for the prior week, the current month and the last month.  It will return the total pounds lifted as inputted by the user on a daily basis.  There is a profile page that allows the user to upload photos to compare their journey and a progress bar to see how close they are to their goal.",
 		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap, React, ASPNEt.MVC, C#, SQL, Version Control with Github",
 		"available": true,
 		"url": "",
@@ -29,7 +29,7 @@
 	"projects5": {
 		"title": "HurstFamily",
 		"screenshot": "https://live.staticflickr.com/65535/50063559001_f63c5bcb36_z.jpg",
-		"description": "FrontEnd Capstone",
+		"description": "This project was a way for my family to share history and keep track of family members and photos from special events.  It allows members to upload fun facts and share their lives in one place.",
 		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap, React, Version Control with Github",
 		"available": true,
 		"url": "https://hurst-family-f893c.web.app/",
