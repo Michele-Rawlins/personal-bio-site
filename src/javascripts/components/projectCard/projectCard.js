@@ -19,12 +19,12 @@ const createProjectCards = () => {
           domString += '<div class="card-body col-md-12">';
           domString += `<h5 class="project-title card-title">${finishedProjects.title}</h5>`;
           domString += `<img class="card-img-top project-screenshot" src="${finishedProjects.screenshot}">`;
-          domString += `<p class="project-text-description card-text">${finishedProjects.description}</p>`;
-          domString += `<p class="card-technology project-text-tech"><u>Technologies Used:</u> ${finishedProjects.technologiesUsed}</p>`;
+          domString += `<p class="project-text project-text-description card-text">${finishedProjects.description}</p>`;
+          domString += `<p class="card-technology project-text project-text-tech"><u>Technologies Used:</u> ${finishedProjects.technologiesUsed}</p>`;
           domString += '<div></div>';
-          domString += `<a class="project-text-url" href =${finishedProjects.url}><span class="text-target"><span>Website</a>`;
+          domString += `<a class="project-text project-text-url" href =${finishedProjects.url}><span class="text-target"><span>Website</a>`;
           domString += '<div></div>';
-          domString += `<a class="project-text-git" href =${finishedProjects.githubUrl}>GitHub</a>`;
+          domString += `<a class="project-text project-text-git" href =${finishedProjects.githubUrl}>GitHub</a>`;
           domString += '</div>';
           domString += '</div>';
           // domString += '</div>';

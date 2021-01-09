@@ -8,7 +8,7 @@ const createBio = () => {
   let domString = '';
   // domString += '<div class="card cardDisplay col-md-12 col col-md-12 w-85" id="bioPage">';
   domString += '<div class="bio" id="bioPage">';
-  domString += '<hr></hr>';
+  // domString += '<hr></hr>';
   // domString += '<p class="intro">Welcome to My Page</p>';
   domString += `<img class = "myPhoto" src="${photograph}" alt="black and white selfie">`;
   domString += '<p class="bio-text">Hello!!!  My name is Michele Rawlins.  I am a Full Stack Web Developer.</p>';
