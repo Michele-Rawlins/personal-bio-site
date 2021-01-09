@@ -7,7 +7,7 @@ const createProjectCards = () => {
   // let domString = '';
   projects.getProjects()
     .then((projectsList) => {
-      let domString = '<div class="d-flex flex-wrap project container">';
+      let domString = '<div class="d-flex flex-wrap project-container">';
       domString += '<p class="project-title">Projects</p>';
       console.error('hello', projectsList);
       projectsList.forEach((finishedProjects) => {

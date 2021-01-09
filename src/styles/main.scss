@@ -8,10 +8,15 @@
 
 body {
     // background-image: linear-gradient(to bottom, rgba(255,255,255,.1) 0%, rgba(255,255,255,.1) 100%),url(https://images.unsplash.com/photo-1488409688217-e6053b1e8f42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-    background: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center fixed; 
+    // background: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center fixed; 
     //  background: url(https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60) no-repeat center center fixed; 
+    // background: url(https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDh8fHRleHR1cmUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8&auto=format&fit=crop&w=500&q=60);
+    // background: url(https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80); 
+    // background: url(https://images.unsplash.com/photo-1531315630201-bb15abeb1653?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nzl8fHRleHR1cmUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    // background: url(https://images.unsplash.com/photo-1517707711963-adf9078bdf01?ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODV8fHRleHR1cmUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
     
-     -webkit-background-size: cover;
+    background:url(https://images.unsplash.com/photo-1507898152394-7dd0e22fe102?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTYyfHx0ZXh0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -87,6 +92,7 @@ img.myPhoto {
     margin-bottom: 50px;
     padding: 25px;
     opacity: 0.9;
+    // background: url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8d2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
 
 }
 #technologies {
@@ -111,6 +117,11 @@ img.myPhoto {
 
 }
 
+.project-container {
+    background:url(https://images.unsplash.com/photo-1507898152394-7dd0e22fe102?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTYyfHx0ZXh0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    
+}
+
 #technology {
 margin: 20px 20px;
 width: 40px;
@@ -127,6 +138,7 @@ height: 40px;
     font-family: Rock Salt;
     margin: auto;
     color: black;
+    margin-top: 25px;
 
 }
 .text-target {
