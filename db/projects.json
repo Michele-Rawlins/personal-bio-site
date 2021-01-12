@@ -23,7 +23,7 @@
 		"description": "This project allows a user to input their meals and workouts.  It will return the calories consumed and the calories for the prior week, the current month and the last month.  It will return the total pounds lifted as inputted by the user on a daily basis.  There is a profile page that allows the user to upload photos to compare their journey and a progress bar to see how close they are to their goal.",
 		"technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap, React, ASPNEt.MVC, C#, SQL, Version Control with Github",
 		"available": true,
-		"url": "",
+		"url": "https://www.loom.com/share/c63876d0b0a54700952301e336493e70",
 		"githubUrl": "https://github.com/Michele-Rawlins/GettinFit"
 	},
 	"projects5": {
