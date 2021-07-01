@@ -21,7 +21,8 @@ import visualStudio from '../../../screenshots/visualstudio.png';
 import vsc from '../../../screenshots/vsc.png';
 import postman from '../../../screenshots/postman.png';
 import moqups from '../../../screenshots/moqup.png';
-
+import postgres from '../../../screenshots/PostgreSQL.png';
+import coreftp from '../../../screenshots/coreftp.png';
 
 import './technologies.scss';
 
@@ -54,6 +55,8 @@ const technologies = () => {
   domString += `<img class="tech-icon" src="${vsc}"></img>`;
   domString += `<img class="tech-icon" src="${postman}"></img>`;
   domString += `<img class="tech-icon" src="${moqups}"></img>`;
+  domString += `<img class="tech-icon" src="${postgres}"></img>`;
+  domString += `<img class="tech-icon" src="${coreftp}"></img>`;
   domString += '</div>';
   domString += '</div>';
   domString += '<hr></hr>';

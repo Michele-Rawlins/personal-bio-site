@@ -89,7 +89,17 @@
           "name": "ES lint",
           "image": "eslint.png",
           "link": "https://eslint.org/"
-      }
+      },
+      "tech19":{
+        "name": "Postgres",
+        "image": "PostgresSQL.png",
+        "link": "https://www.postgresql.org/"
+    },
+    "tech20":{
+        "name": "Postgres",
+        "image": "coreftp.png",
+        "link": "https://www.postgresql.org/"
+    }
     }
 }
 
